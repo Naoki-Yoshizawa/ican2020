@@ -19,7 +19,6 @@ def create_message(from_addr, to_addr, bcc_addrs, subject, body):
     msg['Date'] = formatdate()
     return msg
 
-
 def send(from_addr, to_addrs, msg): #メール送信のためにアカウントに入る
     #context = ssl.create_default_context()
     smtpobj = smtplib.SMTP_SSL('smtp.gmail.com', 465, timeout=10)
