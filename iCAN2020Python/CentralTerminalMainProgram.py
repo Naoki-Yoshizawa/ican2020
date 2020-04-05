@@ -2,10 +2,10 @@ import time
 import GmailSendUnit as GSU
 import DIF_LineNotify as DILN
 
-TO_ADR = 'naoki.4438.work@gmail.com'
+TO_ADR = 'ここはメール送信先のアドレスを入力'
 SBJ = 'プログラムエラー'
 BOD = 'プログラムエラー'
-LINE = DILN.LINENotifyBot(access_token='VQOjC4EMK6WL0QsAWiw0Fyb5pu155yjpHMG5gov5RVz') #アクセストークンは自分のを入力
+LINE = DILN.LINENotifyBot(access_token='ここにアクセストークンを追加') #アクセストークンは自分のを入力
 
 setrue = False
 entrance = False
