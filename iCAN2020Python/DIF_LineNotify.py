@@ -25,7 +25,7 @@ class LINENotifyBot:
             )
 
     def send_message_stamp():
-        bot = DIF_LineNotify.LINENotifyBot(access_token='VQOjC4EMK6WL0QsAWiw0Fyb5pu155yjpHMG5gov5RVz') #アクセストークンは自分のを入力
+        bot = DIF_LineNotify.LINENotifyBot(access_token='ここにアクセストークンを追加') #アクセストークンは自分のを入力
         bot.send(
             message='Write Your Message', #ここは文章に関する記述
             sticker_package_id=1, #ここからはスタンプの送信についての記述
@@ -33,7 +33,7 @@ class LINENotifyBot:
             )
 
     def send_message_stamp_image():
-        bot = DIF_LineNotify.LINENotifyBot(access_token='VQOjC4EMK6WL0QsAWiw0Fyb5pu155yjpHMG5gov5RVz') #アクセストークンは自分のを入力
+        bot = DIF_LineNotify.LINENotifyBot(access_token='ここにアクセストークンを追加') #アクセストークンは自分のを入力
         bot.send(
             message='Write Your Message', #ここは文章に関する記述
             image='test.png',  # png or jpg これは画像の送信、画像が無いときはコメントアウトすること
