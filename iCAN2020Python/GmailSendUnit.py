@@ -3,8 +3,8 @@ from email.mime.text import MIMEText
 from email.utils import formatdate
 import ssl
 
-FROM_ADDRESS = 'naoki.4438.virtual@gmail.com'
-MY_PASSWORD = 'virtualtest'
+FROM_ADDRESS = '差出アドレスを記載'
+MY_PASSWORD = '差出アドレスのパスワード(google)'
 TO_ADDRESS = 'naoki.4438.work@gmail.com'
 BCC = ''
 SUBJECT = 'GmailのSMTPサーバ経由'
